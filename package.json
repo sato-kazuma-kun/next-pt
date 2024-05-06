@@ -1,0 +1,39 @@
+{
+  "name": "@kazuma-kun/next-pt",
+  "version": "1.0.0",
+  "description": "A Simple and Light Weight NextJS Page Transition Package.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sato-kazuma-kun/next-pt.git"
+  },
+  "keywords": [
+    "page-transition",
+    "nextjs",
+    "animation"
+  ],
+  "author": "kazuma-kun",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/next": "^9.0.0",
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "framer-motion": "^11.1.8",
+    "next": "^14.2.3",
+    "react": "^18.3.1"
+  },
+  "peerDependencies": {
+    "next": "^14.2.3"
+  },
+  "typings": "dist/index.d.ts"
+}
